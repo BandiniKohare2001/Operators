@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Operators</title>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odd Or even Nunbers</title>
+</head>
+
+<body>
     <script>
-      const a = 50;
-      const b = 40;
-      const addition = a + b;
-      const subtraction = a - b;
-      const division = a / b;
-      const multiplication = a * b;
-      document.write("Addition : " , addition);
-      document.write("<br>");
-      document.write("Substraction : " , subtraction);
-      document.write("<br>");
-      document.write("Division : " , division);
-      document.write("<br>");
-      document.write("Multiplication : " , multiplication);
+        const number = parseInt(prompt("Enter the Number: "));
+
+        // if (number % 3 == 0 && number % 5 == 0) {
+        //     console.log("Number is divisible by 3 & 5");
+        // }
+        // else {
+        //     console.log("Number is not divisible by 3  & 5");
+        // }
+
+        if (number % 4 == 0 || number % 7 == 0) {
+            console.log("Number is divisible by 4 & 7");
+        }
+        else {
+            console.log("Number is not divisible by 4  & 7");
+        }
     </script>
-  </head>
-  <body></body>
+</body>
+
 </html>
